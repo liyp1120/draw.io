@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T06:36:53.811Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="HHd9IfCZMqfIok2Pfl5f" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T06:46:51.846Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.55" etag="GceLhiIpXJWz16jKNNW1" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1346" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1584" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -23,54 +23,48 @@
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-0" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Codegen Action&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="245" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-2" target="5TqfrEyZ2jsYl1NJjf9b-18">
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-2" target="5TqfrEyZ2jsYl1NJjf9b-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;CNAsmCheck Action&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="343" width="160" height="50" as="geometry" />
+          <mxGeometry x="230" y="430" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. 不使能 CNBIN_ENABLE_NOP_PADDING&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 跳转指令除 call 和 icall 之外，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; 目标地址必须是label&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 跳转指令延迟槽内不能有跳转指令&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="343" width="370" height="180" as="geometry" />
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-56" target="5TqfrEyZ2jsYl1NJjf9b-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="585" />
+              <mxPoint x="420" y="455" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-6" target="5TqfrEyZ2jsYl1NJjf9b-21">
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-4" target="5TqfrEyZ2jsYl1NJjf9b-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;检查是否满足 label 前置条件&lt;br&gt;1. 不使能 CNBIN_ENABLE_NOP_PADDING&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 跳转指令除 call 和 icall 之外，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; 目标地址必须是label&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 跳转指令延迟槽内不能有跳转指令&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="360" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-6" target="5TqfrEyZ2jsYl1NJjf9b-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;构建基本块&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="545" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;报错并退出&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="545" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-18" target="5TqfrEyZ2jsYl1NJjf9b-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-42" value="满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5TqfrEyZ2jsYl1NJjf9b-40">
-          <mxGeometry x="0.1111" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-18" target="5TqfrEyZ2jsYl1NJjf9b-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-44" value="不满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5TqfrEyZ2jsYl1NJjf9b-43">
-          <mxGeometry x="-0.3943" y="2" relative="1" as="geometry">
-            <mxPoint x="-13" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-18" value="使用 label 的&lt;br&gt;前置条件" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="430" width="100" height="80" as="geometry" />
+          <mxGeometry x="555" y="731" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1. 记录所有的 label 及其下一条 cninst&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;std::list&amp;lt;label, cninst&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 记录所有的跳转指令&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;std::list&amp;lt;branch_cninst&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="225" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-21" target="5TqfrEyZ2jsYl1NJjf9b-22">
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-21" target="5TqfrEyZ2jsYl1NJjf9b-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;遍历基本块将跳转指令目的地址重设为 label 的偏移&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="195" y="650" width="230" height="60" as="geometry" />
+          <mxGeometry x="500" y="801" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-22" target="5TqfrEyZ2jsYl1NJjf9b-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="671" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Assemble Action&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="731" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5TqfrEyZ2jsYl1NJjf9b-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-25" target="5TqfrEyZ2jsYl1NJjf9b-0">
           <mxGeometry relative="1" as="geometry" />
@@ -84,8 +78,17 @@
             <mxPoint x="480" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;label 前置条件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="655" y="523" width="180" height="40" as="geometry" />
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-46" target="5TqfrEyZ2jsYl1NJjf9b-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ASM2MachineCode()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="505" y="641" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5TqfrEyZ2jsYl1NJjf9b-2" target="5TqfrEyZ2jsYl1NJjf9b-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5TqfrEyZ2jsYl1NJjf9b-56" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;不满足时输出报错信息&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="525" y="560" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
